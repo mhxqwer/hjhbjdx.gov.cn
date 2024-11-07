@@ -1,0 +1,213 @@
+body { background: #f5f5f5; }
+
+/*内容区样式*/
+#con { padding: 0 40px 40px; background: #fff; margin-bottom: 40px; }
+.position { line-height: 50px; margin-bottom: 25px; font-size: 14px; color: #333; }
+.position a { font-size: 16px; color: #333; }
+
+/*d单页内容区样式*/
+.word_con { margin: 20px 0 40px 0; }
+.word_con * { color: #323232; line-height: 32px; font-size: 16px; }
+.word_con p { margin-bottom: 10px; }
+
+/* 列表样式 */
+.detail_con { padding: 25px 45px 90px; }
+.detail_tit { height: 50px; line-height: 50px; position: relative; background: #d0cccd; padding-left: 48px; font-size: 26px; font-weight: bold; color: #13090a; margin-bottom: 50px; }
+.detail_tit i { width: 6px; height: 26px; background: #bd1a2d; display: block; position: absolute; left: 20px; top: 12px; }
+.listNews li { overflow: hidden; height: 36px; line-height: 36px; vertical-align: middle; }
+.listNews li a { display: block; float: left; padding-left: 40px; font-size: 16px; background: url(../images/icon.png) no-repeat 15px center; color: #140a09; max-width: 70%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.listNews li span { font-size: 14px; color: #888; float: right; }
+.lytj li { overflow: visible; height: auto; }
+.lytj li a { max-width: none !important; white-space: normal !important; float: none !important; }
+.lytj li span { float: none !important; padding-left: 40px; margin-top: 5px; display: block; text-align: right; }
+.listNews li:hover a, .listNews li:hover span { color: #bd1a2d; }
+.listNews li.line { width: 100%; height: 0px; border-top: 1px dotted #d0d0d0; margin: 25px 0; background: none; }
+.listNews li b { float: left; line-height: 18px; font-size: 16px; color: #333; }
+.listNews li b a { float: left; line-height: 18px; font-size: 16px; color: #333; }
+.listNews li b.fz { color: #bd1a2d; font-weight: normal; line-height: 20px; margin-left: 10px; }
+.listNews li b:hover a { color: #03649b; }
+.listNews li.noData { font-size: 20px; color: #333; padding: 0 20px; }
+.listNews2 li a { background: none; padding-left: 8px; }
+.listNews2 li span.name { float: left; color: #bd1a2d; font-size: 16px; background: url(../images/icon.png) no-repeat 15px center; padding-left: 30px; }
+
+/*意见征集列表页*/
+.yjList { }
+.yjList li { padding: 28px 0; overflow: hidden; border-bottom: 1px dashed #DCDCDC; }
+.yjList li .newYj { width: 11%; height: 90px; float: left; border: 1px solid #DCDCDC; line-height: 90px; text-align: center; font-size: 20px; font-weight: bold; margin-right: 2%; }
+.yjList li .newYjL { width: 85% }
+.yjList li .newYjL a { line-height: 30px; color: #000; font-size: 18px; }
+.yjList li .newYjL p { color: #666; font-size: 16px; margin-top: 10px; }
+.yjList li .newYjL p a { width: 163px; height: 26px; text-align: center; line-height: 26px; display: inline-block; background: #FFF6E5; margin-left: 25px; }
+.yjList li:hover { }
+.yjList li { }
+.tabRight { margin-right: 18px; }
+.tabRight span { font-size: 16px; float: left; color: #bd1a2d; font-weight: normal; margin-left: 30px; cursor: pointer; }
+.tabRight span.col { font-weight: bold; }
+
+/* 执法公示搜索 */
+.searchList { margin-bottom: 50px; }
+.searchList input[type='button'] { cursor: pointer; background: none; border: none; font-size: 16px; color: #333; font-weight: bold; padding: 0 15px; border-right: 1px solid #333; margin: 10px 0; white-space: nowrap; }
+.searchList .row { margin-bottom: 20px; }
+.searchList .label { margin-bottom: 10px; }
+.searchList .label span { display: inline-block; padding: 0 15px; font-size: 20px; background: #bd1a2d; line-height: 2em; color: #fff; }
+.zjyj em { font-size: 16px; line-height: 20px; color: #bd1a2d; float: left; font-style: normal; margin-left: 5px; }
+.zjyj li a { max-width: 60%; }
+.picList li { width: 50%; height: auto; float: left; }
+.picList li .img { padding: 10px; }
+.picList li img { width: 100%; height: 350px; object-fit: cover; }
+
+
+/*单篇文章*/
+.aboutUs { }
+.aboutUs .subArticleTitle h2 { font-size: 24px; color: #bd1a2d; line-height: 60px; text-align: center; }
+.aboutUs .subArticleTitle .detail { text-align: center; border-bottom: 1px solid #d2d2d2; margin-bottom: 10px; padding-bottom: 10px; }
+.aboutUs .subArticleTitle .detail span { font-size: 14px; color: #999; }
+.aboutUs .art *, .listCon * { font-size: 16px; line-height: 32px; color: #140a09; }
+
+/*网站地图*/
+.leftNavs { overflow: hidden; margin-top: 25px; }
+.leftNavs maptit { overflow: hidden; border-bottom: 1px solid #d20200; margin-bottom: 15px; }
+.leftNavs h3 { float: left; text-align: center; padding: 8px 15px; background: #bd1a2d; border-radius: 4px; }
+.leftNavs h3 a { color: #fff; font-size: 17px; }
+.leftNavs h3 a:hover { text-decoration: underline; }
+.webMapList { overflow: hidden; margin: 25px auto 0; }
+.webMapList li { float: left; margin: 0 30px 20px 30px; }
+.webMapList li a { color: #666; font-size: 15px; }
+.webMapList li a:hover { color: #d20200; text-decoration: underline; }
+
+/* 图片列表 */
+.picNews { overflow: hidden; }
+.picNews li { width: 30.33%; float: left; margin: 0 1.5% 15px; text-align: center; }
+.picNews li .img { padding: 5px; background: #eee; height: 200px; }
+.picNews li .img img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.picNews li .tit { font-size: 16px; line-height: 2em; color: #333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.picNews li:hover .tit { color: #bd1a2d; }
+
+/* 分页样式 */
+.page-more { text-align: center; margin-top: 50px; }
+.page-more * { display: inline-block; }
+.page-more a, .page-more font { padding: 0 15px; height: 30px; border: 1px solid #efefef; line-height: 28px; font-size: 14px; color: #333; }
+.page-more font { background: #bd1a2d; color: #fff; }
+.page-more input { width: 48px; height: 30px; border: 1px solid #efefef; text-align: center; }
+.page-more input.easysite-jump-btn { font-size: 14px; color: #333; line-height: 30px; height: 30px; padding: 0 15px; border: 1px solid #efefef; background: none; width: auto; }
+.page-more input.easysite-page-text { margin: 0 5px; }
+.page-more a:hover, .page-more button:hover { border-color: #bd1a2d; background: #bd1a2d; color: #fff; }
+
+/*table表格样*/
+.detail_con table td { padding: 10px; border-bottom: 1px solid #000000; border-right: 1px solid #000000; }
+.detail_con table td strong { font-family: 'Microsoft Yahei'; }
+.wgbsUl { margin-top: 20px; padding-top: 0px; border-top: 1px solid #eee; }
+.wgbsUl li { font-size: 0; padding: 10px 0; border-bottom: 1px solid #eee; }
+.wgbsUl li span { font-size: 14px; color: #333; display: block; float: left; word-break: break-all; padding: 5px 0; }
+.wgbsUl li .txt1 { width: 20%; }
+.wgbsUl li .txt2 { width: 26%; padding: 5px 2%; }
+.wgbsUl li .txt3 { width: 10%; }
+.wgbsUl li .txt4 { width: 15%; }
+.wgbsUl li .txt5 { width: 10%; text-align: center; }
+.wgbsUl li .txt6 { width: 15%; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { vertical-align: top; }
+.wgSS .Li { font-size: 16px; color: #333; line-height: 30px; margin-right: 15px; }
+.wgSS .Li input { height: 20px; padding: 5px; box-sizing: content-box; }
+.wgSS .submitWG { width: 75px; height: 32px; }
+.wgbsUl li.first span { font-weight: bold; }
+.detail_con { position: relative; }
+.detail_con .zfNav { position: absolute; right: 50px; top: 38px; z-index: 50; padding: 0; }
+.picListBox li { float: left; width: 25%; margin: 10px 0; }
+.picListBox li .box { margin: 7px 10px; background: #f6f6f5; }
+.picListBox li:hover .box { box-shadow: 0px 0px 7px #d2d2d2; }
+.picListBox li .box .img a img { display: block; width: 100%; height: 180px; object-fit: fill; }
+.picListBox li .box .title a { display: block; box-sizing: content-box; }
+.picListBox li .box .title a { height: 53px; padding: 13px 20px; background: #f6f6f5; font-size: 16px; line-height: 26px; color: #404040; text-align: center; }
+
+/* 新城怀旧20231109 开始 */
+.xchj_box { margin: 20px auto; position: relative; }
+.xchj_body { margin-bottom: 50px; }
+.xchj_body_item { display: none; }
+.xchj_body_item.on { display: block; }
+.xchj_body_item .item { width: 48%; position: relative; }
+.xchj_body_item .item .img { height: 320px; box-shadow: 0 0 10px #eee; }
+.xchj_body_item .item img { width: 100%; height: 100%; object-fit: cover; }
+.xchj_body_item .item .tit { position: absolute; bottom: 20px; right: 0; background: linear-gradient(to left, #bd1b2d 40%, rgba(189, 27, 45, 0)); padding: 0 20px 0 60px; font-size: 16px; color: #fff; line-height: 2.4em; }
+.xchj_head { width: 90%; height: 110px; position: relative; }
+.xchj_head::before { content: ''; display: block; width: 100%; height: 2px; background: #bd1b2d; position: absolute; top: 50%; left: 0; margin-top: -1px; }
+.xchj_head_list li { text-align: center; }
+.xchj_head_list li::after { content: ''; display: block; width: 8px; height: 8px; background: #bd1b2d; position: absolute; left: 50%; top: 50%; margin-top: -4px; margin-left: -4px; }
+.xchj_head_list li:nth-child(2n) span { top: 75px; position: relative; }
+.xchj_head_list li span { display: inline-block; padding: 0 20px; font-size: 16px; line-height: 2em; border-radius: 2em; border: 1px solid #bd1b2d; color: #bd1b2d; cursor: pointer; }
+.xchj_head_list li.on span { background: #bd1b2d; color: #fff; }
+.xchj_head_list li a { display: none; }
+.xchj_but { display: block; width: 36px; height: 36px; border-radius: 50%; border: 1px solid #bd1b2d; font-family: "宋体"; font-size: 30px; text-align: center; line-height: 40px; background: #bd1b2d; color: #fff; font-weight: bold; display: flex; align-items: center; justify-content: center; position: absolute; bottom: 36px; }
+.xchj_prev { left: 0; }
+.xchj_next { right: 0; }
+
+
+@media screen and (max-width: 1023px) {
+	.xchj_body { margin-bottom: 30px; }
+	.xchj_body_item .item .img { height: 26vw; }
+}
+
+@media screen and (max-width: 768px) {
+	.xchj_body { margin-bottom: 10px; }
+	.xchj_body_item .item { width: 100%; float: none; margin-bottom: 30px; }
+	.xchj_body_item .item .img { height: 58vw; }
+}
+/* 新城怀旧20231109 结束 */
+
+/* 响应式代码 */
+@media screen and (max-width:1200px) {
+	body { background: #fff; }
+	#con { padding: 0; }
+	.detail_con { padding: 20px; }
+	.detail_con .zfNav { top: 35px; }
+	.picListBox li { width: 33.3333%; }
+	.picNews li .img { height: 18vw; }
+}
+@media screen and (max-width:880px) {
+	.wgbsUl li .txt2 { width: 76%; }
+	.wgbsUl li .txt5 { width: 20%; }
+	.wgbsUl li .txt1, .wgbsUl li .txt3, .wgbsUl li .txt4, .wgbsUl li .txt6 { display: none; }
+	.wgSS .Li { float: none; margin-bottom: 10px; }
+	.picList li img { height: 30vw; }
+	.zjyj li a { max-width: 50%; }
+}
+@media screen and (max-width:750px) {
+	.picListBox li { width: 50%; }
+	.picListBox li .box .img a img { height: 28vw; }
+	.picListBox li .box .title a { font-size: 15px; padding: 10px; }
+}
+@media screen and (max-width:660px) {
+	.position { margin: 20px 0; line-height: 1.5; }
+	.position a { font-size: 12px; }
+	.detail_con { padding: 10px; }
+	.detail_tit { height: 40px; line-height: 40px; margin-bottom: 20px; padding-left: 38px; font-size: 18px; }
+	.detail_tit i { width: 4px; height: 26px; top: 7px; }
+	.listNews li { height: auto; line-height: 1.5em; margin: 8px 0; }
+	.listNews li a { max-width: 100%; white-space: inherit; overflow: inherit; overflow: hidden; padding-left: 20px; background-position: 0 16px; display: inline-block; float: none; font-size: 14px; }
+	.listNews li span { display: inline-block; float: right; font-size: 14px; }
+	.page-more { margin-top: 10px; }
+	.page-more a.pagingNormal, .page-more font.NormalRed, .page_jump { display: none; }
+	.aboutUs .subArticleTitle h2 { font-size: 18px; line-height: 40px; }
+	.wzdt { margin-bottom: 0 !important; }
+	.leftNavs { margin-top: 1rem; }
+	.webMapList { margin: 1rem auto 0; }
+	.webMapList li { margin: 0 2rem; line-height: 40px; }
+	.listNews li a, .zjyj em { display: block; }
+	.listNews li a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background-position: left center; padding-left: 15px; margin-bottom: 5px; }
+	.zjyj em { font-size: 14px; }
+	.listNews2 li a { }
+	.listNews2 li span.name { font-size: 14px; }
+	.zjyj em { float: right; margin-left: 6px; }
+	.listNews li b.fz { font-size: 14px; margin-left: 0; }
+	.detail_con .zfNav { position: static; padding: 20px 0; }
+	.detail_tit { height: auto; }
+	.tabRight { float: noe; width: 100%; margin-top: 10px; }
+	.lytj li a { background-position: left 7px; }
+	.lytj li span { padding-left: 15px; }
+	.picNews li { width: 48%; margin-left: 1%; margin-right: 1%; }
+	.picNews li .img { height: 28vw; }
+	.picNews li .tit { font-size: 14px; }
+}
+@media screen and (max-width:380px) {
+	.picListBox li { width: auto; float: none; }
+	.picListBox li .box .img a img { height: 40vw; }
+}
